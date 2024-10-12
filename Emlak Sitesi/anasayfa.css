@@ -1,0 +1,89 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    background-color: #345dcecb;
+    color: #1a1918;
+    padding: 20px;
+}
+
+header.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0;
+}
+
+header.h1{
+    font-size: 24px;
+    margin: 0;
+}
+
+header.nav ul{
+    list-style: none;
+    display: flex;
+}
+
+header.nav ul li{
+    margin: 20px;
+    text-align: right;
+}
+
+header.nav ul li a{
+    color: #5ae66d;
+    text-decoration: none;
+    text-align: right;
+}
+
+.hero p{
+    font-size: 18px;
+    margin: 10px 0 20px;
+}
+
+.featured-properties{
+    background-color: #2d61586c;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.featured-properties .container{
+    max-width: 1200px;
+    margin: 0;
+}
+
+.featured-properties .container h2{
+    font-size: 22px;
+}
+
+.property-list{
+    display: flex;
+    justify-content: space-around;
+}
+
+.property-item{
+    background-color: chocolate;
+    padding: 15px;
+    margin: 10px;
+    text-align: center;
+    width: 30%;
+    box-shadow: 0 0 10px rgba(red, green, blue, alpha);
+    border-radius: 5px;
+}
+
+.property-item img{
+    max-width: 100%;
+    border-radius: 5px;
+}
+
+footer{
+    background-color: #345dcecb;
+    color: #1a1918;
+    padding: 20px;
+    text-align: center;
+    font-size: 14px;
+}

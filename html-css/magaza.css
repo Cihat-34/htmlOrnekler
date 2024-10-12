@@ -1,0 +1,30 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2;
+}
+.store-header{
+    background-color: #333;
+    color: #ff3232f3;
+    padding: 40px;
+    text-align: center;
+}
+.product-categories{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    margin: 0;
+}
+.category-electronic{
+    background-color: #ff5c33;
+    color: white;
+}
+.category-fashion{
+    background-color: #f7994b;
+    color: white;
+}
+.category-home{
+    background-color: #fcbf3d;
+    color: white;
+}

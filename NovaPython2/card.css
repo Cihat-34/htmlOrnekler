@@ -1,0 +1,44 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgba(129, 223, 202, 0.726);
+    margin: 0;
+    padding: 0;
+}
+#header{
+    background-color: #e9f355a9;
+    color: #f3432cc7;
+    padding: 20px;
+    text-align: center;
+}
+.title{
+    font-size: 30px;
+    margin: 0;
+}
+.nav-list{
+    list-style-type: none;
+    padding: 0;
+}
+.nav-list li{
+    display: inline-block;
+    margin: 10px;
+}
+#about{
+    padding: 20px;
+}
+#projects{
+    padding: 20px;
+}
+.projects-list{
+    list-style-type: none;
+    padding: 0;
+}
+.contact-bin{
+    background-color: rgb(252, 157, 69);
+    color: antiquewhite;
+    border: none;
+    padding: 10px;
+}
+.contact-bin:hover{
+    background-color: brown;
+    color: white;
+}

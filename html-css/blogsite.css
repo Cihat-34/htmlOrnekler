@@ -1,0 +1,37 @@
+body{
+    font-family: Arial,sans-serif;
+    background-color: blanchedalmond;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.blog-post{
+    width: 60%;
+    background-color: white;
+    margin: 20px;
+    padding: 20px;
+    border: 2px solid black;
+    box-sizing: border-box;
+    display: block;
+}
+.post-title{
+    font-size: 24px;
+    margin-bottom: 10px;
+    border: 0.5px solid rgb(167, 164, 164);
+    padding-bottom: 10px;
+}
+.post-meta{
+    font-size: 14px;
+    color: brown;
+    margin-bottom: 20px;
+}
+.post-content{
+    margin-bottom: 15px;
+    line-height: 1.6;
+}
+*{
+    box-sizing: border-box;
+}

@@ -1,0 +1,49 @@
+# Çalışan performans verileri
+data = {
+    'Employee': ['John', 'Anna', 'Peter', 'Linda', 'Mike'],
+    'Department': ['HR', 'IT', 'HR', 'IT', 'HR'],
+    'Performance': [8, 7, 9, 6, 8]
+}
+
+
+
+# Şube günlük satış verileri
+data = {
+    'Branch': ['A', 'B', 'A', 'C', 'B', 'C'],
+    'Date': ['2023-01-01', '2023-01-01', '2023-01-02', '2023-01-02', '2023-01-01', '2023-01-02'],
+    'Sales': [1500, 2000, 1800, 2500, 2200, 1900]
+}
+
+
+
+
+# Departman 1 çalışan verileri
+data1 = {
+    'Employee': ['John', 'Anna', 'Peter'],
+    'Department': ['HR', 'IT', 'HR'],
+    'Salary': [60000, 80000, 70000]
+}
+
+data2 = {
+    'Employee': ['Linda', 'Mike'],
+    'Department': ['Finance', 'IT'],
+    'Salary': [75000, 90000]
+}
+
+
+# Ürün verileri
+data = {
+    'Product': ['Laptop', 'Tablet', 'Phone', 'Desktop', 'Keyboard'],
+    'Category': ['Electronics', 'Electronics', 'Electronics', 'Electronics', 'Accessories'],
+    'Price': [1200, 500, 800, 1500, 50],
+    'Stock': [50, 100, 80, 30, 200]
+}
+
+
+
+#örnek veri seti
+data = {
+    'Name': ['Alice', 'Bob', 'Charlie', 'David'],
+    'Age': [25, 30, 35, 40],
+    'City': ['New York', 'Los Angeles', 'Chicago', 'Houston']
+}
